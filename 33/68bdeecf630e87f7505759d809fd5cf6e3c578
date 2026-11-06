@@ -1,0 +1,19 @@
+sh/run_hynomas_inference.py
+  s_e9e76b7336352b::t_076dc7aa74f197 55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3368bdeecf630e87f7505759d809fd5cf6e3c578",
+  "prompts": {},
+  "sessions": {
+    "s_e9e76b7336352b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ad22-df4c-7292-8889-e13244c3659f",
+        "model": "unknown"
+      },
+      "human_author": "nnnet <21066097+nnnet@users.noreply.github.com>"
+    }
+  }
+}
