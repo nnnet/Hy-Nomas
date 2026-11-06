@@ -1,0 +1,107 @@
+docker/Dockerfile.api
+  s_e77801c51d0b96::t_fb2211afa9c6ed 4-6
+  s_e77801c51d0b96::t_a87c303ca2d07f 1-3,7
+  s_e77801c51d0b96::t_a3249f5f2be84b 8-10
+apps/cs-skins-city-complete/template.md
+  s_e77801c51d0b96::t_a2f464c6d0d745 1-39,41-77,89-167
+  s_e77801c51d0b96::t_37fd504bc97cc2 40
+  s_e77801c51d0b96::t_e10374fa55b424 78-88
+  s_e77801c51d0b96::t_f29970be82b0ca 168-211
+apps/cs-skins-city-complete/scenario_all_keys.json
+  s_e77801c51d0b96::t_8301487b0d70f4 108-115,120-127
+  s_e77801c51d0b96::t_b487d68291e303 1-31,39-107,116-119,128-131
+  s_e77801c51d0b96::t_7e8b01ad0d559e 32-38
+Makefile
+  s_e77801c51d0b96::t_61fe9bf0b60079 3-29
+  s_e77801c51d0b96::t_3dd4234373b549 1-2
+  s_e77801c51d0b96::t_c2e893a98831a8 30-32
+  s_f93c548ade827d::t_dc35bfb576952b 33-145
+docker-compose.yml
+  s_e77801c51d0b96::t_e6ab541143ed98 2-11,14-15,22-24
+  s_e77801c51d0b96::t_4451882c2338e6 12
+  s_e77801c51d0b96::t_3862f8f3ef9eeb 20
+  s_e77801c51d0b96::t_89d280bed32d53 13
+  s_e77801c51d0b96::t_a4b9fce89fa66a 18
+  s_e77801c51d0b96::t_cef82dabcb50c2 1,16-17,19,21,25
+  s_e77801c51d0b96::t_9791b410afb9aa 26-28
+apps/cs-skins-city/scenario.json
+  s_e77801c51d0b96::t_7a24f0db661a8b 1-23
+docker/nginx.conf
+  s_e77801c51d0b96::t_dd98dceac171c7 12-13,16
+  s_e77801c51d0b96::t_27235789a0c6be 14
+  s_e77801c51d0b96::t_0bb38811927a31 1-11,15,17-31
+  s_e77801c51d0b96::t_21eb3f9913b3b3 32-34
+apps/cs-skins-city-complete/scenario.json
+  s_e77801c51d0b96::t_bc5f4eead3c301 1-30
+docker/Dockerfile.web
+  s_e77801c51d0b96::t_c151f5e550f336 1-21
+HANDOFF.md
+  s_e77801c51d0b96::t_8724fb2a5bc4b8 1-56
+  s_e77801c51d0b96::t_67d53f38e86dfe 57-59
+apps/prompts/example_scenario.json
+  s_e77801c51d0b96::t_5d1ac2409d6dec 1-23
+sh/run_hynomas_14.sh
+  s_e77801c51d0b96::t_044178d54d895b 1-77
+sh/run_hynomas_15.sh
+  s_e77801c51d0b96::t_5de912d824f8dd 1-98
+sh/run_web.sh
+  s_e77801c51d0b96::t_a7917d748a4c5b 1-31
+bdd/features/shared-model-store.feature
+  s_f93c548ade827d::t_be80497b2d605a 1-26
+bdd/features/upstream-sync.feature
+  s_e9e76b7336352b::t_dee6631ea911c0 1-21
+openspec/specs/shared-model-store/spec.md
+  s_f93c548ade827d::t_5d7beac442aa90 1-49
+openspec/specs/upstream-sync/spec.md
+  s_e9e76b7336352b::t_284c1f1639b6a3 1-37
+reproductions/SHARED_MODEL_STORE.md
+  s_f93c548ade827d::t_9b5696d6b6bc47 1-76
+reproductions/comfyui-extra-model-paths.docker.yaml
+  s_f93c548ade827d::t_9ce4b8c660af8e 1-14
+reproductions/comfyui-extra-model-paths.yaml
+  s_f93c548ade827d::t_9adac246bd7054 1-14
+reproductions/local-patches/README.md
+  s_e9e76b7336352b::t_b5861c46f62611 1-9
+sh/ensure_models.py
+  s_f93c548ade827d::t_1c1f8ee909def9 1-45
+sh/model_store.py
+  s_f93c548ade827d::t_ff2723a9b31b08 1-687
+sh/run_hynomas_16.sh
+  s_f93c548ade827d::t_4ece409aaebe36 1-156
+sh/run_hynomas_inference.py
+  s_f93c548ade827d::t_0f02dd22aacab7 1-61
+sh/upstream_sync.sh
+  s_e9e76b7336352b::t_c50cee8e83a450 1-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f3f94749b9ecadbc9662fa9c3584b9668e584943",
+  "prompts": {},
+  "sessions": {
+    "s_e77801c51d0b96": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fd1c8433-3a71-4517-9ac2-32521b77863f",
+        "model": "anthropic/claude-ccr-h4f70656e526f757465722f6e76696469612f6e656d6f74726f6e2d332e352d73757065722d766c3a66726565"
+      },
+      "human_author": "nnnet <21066097+nnnet@users.noreply.github.com>"
+    },
+    "s_e9e76b7336352b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ad22-df4c-7292-8889-e13244c3659f",
+        "model": "unknown"
+      },
+      "human_author": "nnnet <21066097+nnnet@users.noreply.github.com>"
+    },
+    "s_f93c548ade827d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1affc-8779-76e3-aea3-7892ffc072d0",
+        "model": "unknown"
+      },
+      "human_author": "nnnet <21066097+nnnet@users.noreply.github.com>"
+    }
+  }
+}
