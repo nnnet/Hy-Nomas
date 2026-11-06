@@ -38,6 +38,8 @@
   @REQ-docker-stack-003
   Сценарий: Исходники upstream разложены без реконструкции скрытых данных
     Дано репозиторий проекта
+    Тогда файл "sh/run_hynomas_inference.py" содержит "parallelism.tp_size=1"
+    И файл "sh/run_hynomas_16.sh" содержит "sudo -n chown"
     Тогда source pack содержит шесть отдельных upstream-примеров
     И provenance source pack закрепляет официальный bundle и видео
     И полные upstream-примеры готовы для одинакового CLI и Web replay

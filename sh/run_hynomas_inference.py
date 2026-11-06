@@ -52,6 +52,7 @@ model_root = os.environ.get("Hy_Nomas_Model_Path", "/models").rstrip("/")
 sys.argv = [
     "hymm/inference.py",
     "+experiment=single_gpu_low_mem_inference",
+    "parallelism.tp_size=1",
     f"dit_weight={model_root}/DiT/distilled_int8/diffusion_pytorch_model_ema_0_995_int8.safetensors",
     f"model.vae.checkpoint={model_root}/VAE/PixelUMM_FT_FP8/diffusion_pytorch_model_fp8.safetensors",
     f"inference.prompt={scenario}",

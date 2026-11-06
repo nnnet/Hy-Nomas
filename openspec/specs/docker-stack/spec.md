@@ -54,10 +54,16 @@ prompt/camera данных. Полный CLI/Web replay SHALL создавать
 у которого upstream опубликовал весь timeline и не оставил camera-control
 trajectory скрытой. Отсутствующие prompts или camera trajectory SHALL быть
 помечены как недоступные и SHALL NOT заменяться придуманными значениями.
+CLI adapter SHALL явно отключать TP для single-GPU INT8 replay.
+Созданные контейнером artifacts SHALL возвращаться владельцу
+рабочего каталога, чтобы H.264-копия сохранялась рядом с
+оригиналом, а не в `/tmp`.
 
 #### Scenario: Исходники upstream разложены без реконструкции скрытых данных
 - **WHEN** source pack извлечён из pinned official bundle
 - **THEN** существуют шесть отдельных каталогов с проверяемым provenance
 - **AND** полные text-only примеры имеют одинаковый JSON для CLI и Web replay
+- **AND** CLI adapter запускает INT8 replay с `parallelism.tp_size=1`
+- **AND** CLI wrapper возвращает владение output-файлами локальному пользователю
 - **AND** частичные примеры не объявлены доступными для exact replay
 - **AND** camera-control сегменты без опубликованной trajectory содержат `null`

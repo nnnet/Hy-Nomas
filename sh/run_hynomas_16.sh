@@ -69,7 +69,10 @@ docker run --rm --gpus all --ipc=host --network=host \
 EXIT_CODE=$?
 set -e
 
-chown -R "$USER":"$USER" "${SAVE_PATH}" 2>/dev/null || true
+if ! chown -R "$USER":"$USER" "${SAVE_PATH}" 2>/dev/null; then
+    sudo -n chown -R "$USER":"$USER" "${SAVE_PATH}" 2>/dev/null || \
+      echo "ВНИМАНИЕ: не удалось вернуть владение ${SAVE_PATH}" >&2
+fi
 
 if [ "$EXIT_CODE" -ne 0 ]; then
     echo "Генерация завершилась с ошибкой (код $EXIT_CODE)."
