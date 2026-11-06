@@ -1,0 +1,11 @@
+# syntax=docker/dockerfile:1
+
+# Reuse the CUDA/PyTorch environment that already generates videos through
+# sh/run_hynomas_16.sh. The compose bind mount supplies the project source.
+FROM hynomasoss/hynomasoss:cu130
+
+COPY docker/run_api.py /usr/local/bin/hy-nomas-api
+COPY docker/run_gateway.py /usr/local/bin/hy-nomas-gateway
+
+WORKDIR /workspace/Hy-Nomas
+ENTRYPOINT ["python3", "-u", "/usr/local/bin/hy-nomas-api"]

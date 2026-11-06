@@ -1,0 +1,6 @@
+{
+  "status": "not-present-in-published-timeline",
+  "segments": [],
+  "trajectory": null,
+  "note": "The published timeline uses text prompts only. Camera directions inside prompt text remain verbatim."
+}

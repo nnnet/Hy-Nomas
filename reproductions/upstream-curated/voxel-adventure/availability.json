@@ -1,0 +1,8 @@
+{
+  "exact_replay": true,
+  "published_segments": 4,
+  "hidden_prompt_segments": [],
+  "camera_control_segments": [],
+  "missing": [],
+  "policy": "The full published text-only timeline can be passed unchanged through the local CLI and Web structured-JSON paths."
+}

@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "gallery_bundle": {
+    "url": "https://hy-nomas.hy.tencent.com/assets/index-DdHuI7-l.js",
+    "sha256": "e135e2bb3948740d32c6f9de8a6efc095491dae508a14d0b9c9ec8343f42bd2a"
+  },
+  "cases": [
+    {
+      "slug": "snow-palace-walk",
+      "id": "curated-20261022-snow-palace-walk",
+      "title": "Snow Palace Walk",
+      "exact_replay": false,
+      "missing": [
+        "prompt_segments:1,3,4",
+        "camera_trajectory"
+      ],
+      "duration": "34.0s",
+      "video_sha256": "49d663c12c13d2971b011fdd009fa444a49ed946566cc5c121949c513d095d0b"
+    },
+    {
+      "slug": "snow-palace-ascent",
+      "id": "curated-20261022-snow-palace-ascent",
+      "title": "Snow Palace Ascent",
+      "exact_replay": true,
+      "missing": [],
+      "duration": "30.0s",
+      "video_sha256": "2ef9551d44afe0051681ce83292d2a8d0733f1a054974713b5f65a8e0ebe3c0d"
+    },
+    {
+      "slug": "coastal-waterfall",
+      "id": "curated-20261022-coastal-waterfall",
+      "title": "Coastal Waterfall",
+      "exact_replay": false,
+      "missing": [
+        "camera_trajectory"
+      ],
+      "duration": "40.5s",
+      "video_sha256": "9f00398930046472c3143e69e76627365171e733b7d80dede0ef90c74e63d902"
+    },
+    {
+      "slug": "voxel-adventure",
+      "id": "curated-20261022-voxel-adventure",
+      "title": "Voxel Adventure",
+      "exact_replay": true,
+      "missing": [],
+      "duration": "30.0s",
+      "video_sha256": "7caa5460bb4b22100dd10f442c2f1ec8a3f7b2e892ed44edf718d8cf00e23488"
+    },
+    {
+      "slug": "kitchen-stories",
+      "id": "curated-20261022-kitchen-stories",
+      "title": "Kitchen Stories",
+      "exact_replay": true,
+      "missing": [],
+      "duration": "42.0s",
+      "video_sha256": "274bfea3e0ce83b2a3a1507eb8dadaedef91e0e2ecaa4bdc04ec903d4bde89ee"
+    },
+    {
+      "slug": "street-coffee",
+      "id": "curated-20261022-street-coffee",
+      "title": "Street Coffee",
+      "exact_replay": false,
+      "missing": [
+        "prompt_segments:4,5"
+      ],
+      "duration": "41.6s",
+      "video_sha256": "e11a92e78dc530e908ec4b8ff40b9730b284e3d4222ca9b57147a28bbea800ac"
+    }
+  ]
+}

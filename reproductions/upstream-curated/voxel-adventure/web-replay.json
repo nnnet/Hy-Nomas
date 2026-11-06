@@ -1,0 +1,45 @@
+{
+  "mode": "structured-seg-ar-json",
+  "setup": {
+    "perspective": "first-person",
+    "subject_description": "A first-person Minecraft player, visible as a blocky arm and hand.",
+    "environment_description": "A sunlit voxel landscape with grassy hills, oak trees, flowers, and square clouds."
+  },
+  "scenario": [
+    {
+      "test_id": "upstream-voxel-adventure",
+      "title": "Voxel Adventure",
+      "source_id": "curated-20261022-voxel-adventure",
+      "source_kind": "official-public-gallery-timeline-adapter",
+      "perspective": "first-person",
+      "total_duration": 30,
+      "segments": [
+        {
+          "segment_index": 0,
+          "start_time": "00:00:00.000",
+          "end_time": "00:00:05.000",
+          "visual_description_long": "In Minecraft, the player pulls out a phone"
+        },
+        {
+          "segment_index": 1,
+          "start_time": "00:00:05.000",
+          "end_time": "00:00:09.000",
+          "description_change": "Switches to a diamond sword and slashes forward"
+        },
+        {
+          "segment_index": 2,
+          "start_time": "00:00:09.000",
+          "end_time": "00:00:22.000",
+          "description_change": "Summons the Ender Dragon; the Ender Dragon’s appearance causes the environment to change dramatically, with thunder and snowfall at the same time. The player flies up into the sky toward the Ender Dragon, switches from the diamond sword to a staff, and casts a flashy magic spell to defeat the Ender Dragon"
+        },
+        {
+          "segment_index": 3,
+          "start_time": "00:00:22.000",
+          "end_time": "00:00:30.000",
+          "description_change": "Then casts one more spell: Comet Azur from Elden Ring"
+        }
+      ]
+    }
+  ],
+  "instructions": "Create a world with setup, then paste scenario as one JSON payload into the direction field. The UI detects structured JSON and bypasses prompt enhancement."
+}

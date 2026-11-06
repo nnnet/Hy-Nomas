@@ -1,0 +1,131 @@
+[
+  {
+    "test_id": "cs-skins-city-all-keys-01",
+    "test_type": "cs_skins_city_2d",
+    "test_focus": "pulemot_trade_lock",
+    "dimension": "emotion",
+    "benchmark_kind": "whole_item",
+    "trajectory_family": "camera_none",
+    "trajectory_class": "static",
+    "trajectory_variant": "none",
+    "duration_bucket": "8-18s",
+    "total_duration": 17,
+    "perspective": "first_person",
+    "perspective_compatibility": "vertical_1080x1920",
+    "scene_type": "interior",
+    "scene_category": "apartment",
+    "content_domain": "cs_skins_city",
+    "game_genre": "counter_strike",
+    "obstacle_meta": "trade_lock_7_days",
+    "camera_trajectory_spec": {
+      "ground_truth_npz": null,
+      "params": {
+        "format": null,
+        "right_padding_frames": null,
+        "segment_boundaries_pixel": null
+      },
+      "fps": 24
+    },
+    "joint_control_spec": null,
+    "evaluation_criteria": null,
+    "org_raw_id": "cs-skins-city-pulemot-01",
+    "image_reference": {
+        "id": "img_pulemot_01",
+        "url": "apps/cs-skins-city-complete/assets/pulemot_reference.jpg",
+        "width": 512,
+        "height": 512,
+        "caption": "Пулемёт в оливковой куртке и жёлтых ботинках, референс для генерации героя"
+    },
+    "segments": [
+      {
+        "segment_index": 0,
+        "segment_control": null,
+        "joint_caption_constraint": null,
+        "start_time": "00:00.000",
+        "end_time": "00:06.000",
+        "visual_description_long": "Плоская 2D-заливка, толстая чёрная обводка, палитра пыльный беж оливка серый бетон. Пулемёт — антропоморфный ствол в вязаной оливковой куртке и огромных жёлтых резиновых ботинках, глаза пугливые, ресница дрожит, руки в перчатках. Тесная жилая комната, фон светлее персонажа. Пулемёт ставит на подоконник чашку чая. К патронной ленте приклеена старая фотография: он в обнимку с Диглом на фоне пыльного de_dust2. Пулемёт проводит по фотографии пальцем.",
+        "description_change": null,
+        "contained_actions": [
+          {
+            "start_time": "00:00.000",
+            "end_time": "00:03.000",
+            "action_description": "Пулемёт ставит на подоконник чашку чая и проводит пальцем по фотографии с Диглом на фоне de_dust2."
+          },
+          {
+            "start_time": "00:03.000",
+            "end_time": "00:06.000",
+            "action_description": "Ресница Пулемёта дрожит, он смотрит на фотографию с ностальгией."
+          }
+        ]
+      },
+      {
+        "segment_index": 1,
+        "segment_control": null,
+        "joint_caption_constraint": null,
+        "start_time": "00:06.000",
+        "end_time": "00:13.000",
+        "visual_description_long": "Плоская 2D-заливка, акцент жёлтый и розовый. Пулемёт смотрит на пустую полку, глаза на мокром месте. На телефоне пуш-уведомление «Trade Lock: предмет на карантине 7 дней». Где раньше стоял его кейс — пустота. Он молча выравнивает чашку на подоконнике — ровно по краю.",
+        "description_change": null,
+        "contained_actions": [
+          {
+            "start_time": "00:06.000",
+            "end_time": "00:09.000",
+            "action_description": "Пулемёт читает пуш-уведомление о Trade Lock на телефоне."
+          },
+          {
+            "start_time": "00:09.000",
+            "end_time": "00:13.000",
+            "action_description": "Пулемёт смотрит на пустую полку и выравнивает чашку по краю подоконника."
+          }
+        ]
+      },
+      {
+        "segment_index": 2,
+        "segment_control": null,
+        "joint_caption_constraint": null,
+        "start_time": "00:13.000",
+        "end_time": "00:17.000",
+        "visual_description_long": "Крупный план, счётчик «7д 00:00:00» на экране, блёкло-голубое небо. Пулемёт сидит на лавке во дворе, вокруг пусто. Ветер приносит записку «Карантин». Он прижимает её к груди как артефакт памяти. Стоп-кадр.",
+        "description_change": null,
+        "contained_actions": [
+          {
+            "start_time": "00:13.000",
+            "end_time": "00:15.000",
+            "action_description": "Камера отъезжает, показывая Пулемёта на лавке во дворе."
+          },
+          {
+            "start_time": "00:15.000",
+            "end_time": "00:17.000",
+            "action_description": "Пулемёт прижимает записку «Карантин» к груди. Стоп-кадр."
+          }
+        ]
+      }
+    ],
+    "subject_list": [
+      {
+        "subject_id": "<|Subject1|>",
+        "display_name": "Пулемёт",
+        "subject_attribute": "Антоморфный ствол, вязаная оливковая куртка, огромные жёлтые резиновые ботинки, глаза — главный носитель эмоции, руки в перчатках",
+        "image_reference": {
+            "id": "img_pulemot",
+            "url": "apps/cs-skins-city-complete/assets/pulemot_reference.jpg",
+            "width": 512,
+            "height": 512,
+            "caption": "Референс героя Пулемёт"
+        }
+      },
+      {
+        "subject_id": "<|Subject2|>",
+        "display_name": "Дигл",
+        "subject_attribute": "Невротичный главный герой, появляется на старой фотографии на фоне de_dust2",
+        "image_reference": {
+            "id": "img_digl",
+            "url": "apps/cs-skins-city-complete/assets/digl_reference.jpg",
+            "width": 512,
+            "height": 512,
+            "caption": "Референс героя Дигл"
+        }
+      }
+    ]
+  }
+]

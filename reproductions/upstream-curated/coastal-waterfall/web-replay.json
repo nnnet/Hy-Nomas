@@ -1,0 +1,33 @@
+{
+  "mode": "unavailable-exact-replay",
+  "setup": {
+    "perspective": "third-person follow",
+    "subject_description": "A dark brown attack helicopter with a tandem canopy and nose searchlight.",
+    "environment_description": "A sunlit coastal canyon with turquoise water, a tall bridge, and a waterfall spilling down the cliff."
+  },
+  "published_timeline": [
+    {
+      "number": 1,
+      "start_seconds": 0,
+      "end_seconds": 14,
+      "prompt": "In a sunlit coastal canyon with turquoise water, a tall bridge, and a small waterfall spilling down the sea cliff into the chop below, a dark brown armed attack helicopter hovers near the cliff face with its nose searchlight beam lit, dropping low over the water beside the falling stream. Have the camera follow the helicopter from a high view into a low forward chase."
+    },
+    {
+      "number": 2,
+      "start_seconds": 14,
+      "end_seconds": 29,
+      "prompt": "Have the hovering helicopter sweep its nose searchlight beam slowly across the small waterfall; where the light passes, the falling water visibly halts and then climbs back up along the original wet rock face to the clifftop, while splashed droplets from the sea rise off the surface and stream upward to rejoin the reversed flow. Keep the helicopter hovering steady in its low chase position as the water climbs."
+    },
+    {
+      "number": 3,
+      "start_seconds": 29,
+      "end_seconds": 40.458333,
+      "prompt": "Camera control"
+    }
+  ],
+  "missing": [
+    "camera_trajectory"
+  ],
+  "scenario": null,
+  "instructions": "Do not run as an exact reproduction. Public upstream omitted required source data."
+}

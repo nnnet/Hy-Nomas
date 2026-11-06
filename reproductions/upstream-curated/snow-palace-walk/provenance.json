@@ -1,0 +1,14 @@
+{
+  "source": "official Hy-Nomas public production frontend",
+  "extracted_at_policy": "deterministic; timestamp intentionally omitted",
+  "gallery_bundle": {
+    "url": "https://hy-nomas.hy.tencent.com/assets/index-DdHuI7-l.js",
+    "sha256": "e135e2bb3948740d32c6f9de8a6efc095491dae508a14d0b9c9ec8343f42bd2a"
+  },
+  "video": {
+    "url": "https://hy-nomas.hy.tencent.com/gallery/curated-20261022-snow-palace-walk.mp4",
+    "sha256": "49d663c12c13d2971b011fdd009fa444a49ed946566cc5c121949c513d095d0b",
+    "local_path": "gallery/media/curated-20261022-snow-palace-walk.mp4"
+  },
+  "note": "The Gallery entry is copied verbatim. scenario.json, when present, is a local format adapter over the published timeline, not an upstream-authored scenario file."
+}

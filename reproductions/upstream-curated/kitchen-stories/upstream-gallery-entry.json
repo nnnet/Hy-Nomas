@@ -1,0 +1,30 @@
+{
+  "id": "curated-20261022-kitchen-stories",
+  "title": "Kitchen Stories",
+  "video": "gallery/curated-20261022-kitchen-stories.mp4",
+  "duration": "42.0s",
+  "perspective": "first-person",
+  "subject": "An adult woman preparing chicken soup in a modern kitchen.",
+  "attributes": "A kitchen with white and sage-green cabinets, stainless steel counters, and a steaming pot on the stove.",
+  "direction": "Bring the carrots to the stove, lift the lid, and stir the soup.",
+  "prompt_timeline": [
+    {
+      "number": 1,
+      "start_seconds": 0,
+      "end_seconds": 13,
+      "prompt": "In a modern kitchen, woman cooking chicken soup holds a bowl of cut carrots up to the selfie camera, carries it to the stove, sets it down, and lifts the pot lid to reveal simmering green chicken broth. Let the camera turn through the kitchen and settle on the stovetop."
+    },
+    {
+      "number": 2,
+      "start_seconds": 13,
+      "end_seconds": 27,
+      "prompt": "Keep the framing on the stovetop as woman cooking chicken soup sets the lid aside, pours the carrots into the simmering broth, and stirs them in with a spatula, then a ladle."
+    },
+    {
+      "number": 3,
+      "start_seconds": 27,
+      "end_seconds": 42,
+      "prompt": "Hold the view on woman cooking chicken soup's pot as the broth settles into a gentle simmer and the ladle rests in the bowl."
+    }
+  ]
+}

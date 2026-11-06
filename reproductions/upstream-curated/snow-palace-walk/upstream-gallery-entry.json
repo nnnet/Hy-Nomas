@@ -1,0 +1,36 @@
+{
+  "id": "curated-20261022-snow-palace-walk",
+  "title": "Snow Palace Walk",
+  "video": "gallery/curated-20261022-snow-palace-walk.mp4",
+  "duration": "34.0s",
+  "perspective": "third-person follow",
+  "subject": "A silver-gray snow leopard with thick winter fur and dark rosettes.",
+  "attributes": "An animated winter landscape at the foot of the Potala Palace, with deep snow, red-and-white walls, golden rooftops, and distant mountain ridges.",
+  "direction": "Walk forward along the snowy path toward the palace.",
+  "prompt_timeline": [
+    {
+      "number": 1,
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "prompt": "Original user prompt unavailable"
+    },
+    {
+      "number": 2,
+      "start_seconds": 6,
+      "end_seconds": 18,
+      "prompt": "Camera control"
+    },
+    {
+      "number": 3,
+      "start_seconds": 18,
+      "end_seconds": 26,
+      "prompt": "Original user prompt unavailable"
+    },
+    {
+      "number": 4,
+      "start_seconds": 26,
+      "end_seconds": 34,
+      "prompt": "Original user prompt unavailable"
+    }
+  ]
+}

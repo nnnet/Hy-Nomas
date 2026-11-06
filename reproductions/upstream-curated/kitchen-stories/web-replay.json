@@ -1,0 +1,39 @@
+{
+  "mode": "structured-seg-ar-json",
+  "setup": {
+    "perspective": "first-person",
+    "subject_description": "An adult woman preparing chicken soup in a modern kitchen.",
+    "environment_description": "A kitchen with white and sage-green cabinets, stainless steel counters, and a steaming pot on the stove."
+  },
+  "scenario": [
+    {
+      "test_id": "upstream-kitchen-stories",
+      "title": "Kitchen Stories",
+      "source_id": "curated-20261022-kitchen-stories",
+      "source_kind": "official-public-gallery-timeline-adapter",
+      "perspective": "first-person",
+      "total_duration": 42,
+      "segments": [
+        {
+          "segment_index": 0,
+          "start_time": "00:00:00.000",
+          "end_time": "00:00:13.000",
+          "visual_description_long": "In a modern kitchen, woman cooking chicken soup holds a bowl of cut carrots up to the selfie camera, carries it to the stove, sets it down, and lifts the pot lid to reveal simmering green chicken broth. Let the camera turn through the kitchen and settle on the stovetop."
+        },
+        {
+          "segment_index": 1,
+          "start_time": "00:00:13.000",
+          "end_time": "00:00:27.000",
+          "description_change": "Keep the framing on the stovetop as woman cooking chicken soup sets the lid aside, pours the carrots into the simmering broth, and stirs them in with a spatula, then a ladle."
+        },
+        {
+          "segment_index": 2,
+          "start_time": "00:00:27.000",
+          "end_time": "00:00:42.000",
+          "description_change": "Hold the view on woman cooking chicken soup's pot as the broth settles into a gentle simmer and the ladle rests in the bowl."
+        }
+      ]
+    }
+  ],
+  "instructions": "Create a world with setup, then paste scenario as one JSON payload into the direction field. The UI detects structured JSON and bypasses prompt enhancement."
+}

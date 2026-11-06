@@ -1,0 +1,3 @@
+# Gallery state and MP4 files are persistent runtime data, not source files.
+*
+!.gitignore

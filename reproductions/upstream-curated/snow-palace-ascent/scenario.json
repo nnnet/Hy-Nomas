@@ -1,0 +1,36 @@
+[
+  {
+    "test_id": "upstream-snow-palace-ascent",
+    "title": "Snow Palace Ascent",
+    "source_id": "curated-20261022-snow-palace-ascent",
+    "source_kind": "official-public-gallery-timeline-adapter",
+    "perspective": "third-person follow",
+    "total_duration": 30,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_time": "00:00:00.000",
+        "end_time": "00:00:06.000",
+        "visual_description_long": "The foot of Lhasa's Potala Palace hill, covered in heavy snow. A silver-gray snow leopard stands at the bottom of the wide stone steps, its paws sinking slightly into the snow, with a tall red-and-white palace wall rising ahead. Use a third-person follow shot, continuously tracking from behind or diagonally behind the subject, keeping the subject clearly visible at all times. The initial shot lasts about 6 seconds."
+      },
+      {
+        "segment_index": 1,
+        "start_time": "00:00:06.000",
+        "end_time": "00:00:14.000",
+        "description_change": "For the next approximately 8 seconds, the snow leopard runs upward along the stone steps toward the red-and-white palace wall, snow flying up behind it. The camera continues to follow the subject, keeping the subject fully and clearly visible in the frame."
+      },
+      {
+        "segment_index": 2,
+        "start_time": "00:00:14.000",
+        "end_time": "00:00:22.000",
+        "description_change": "At the red-and-white palace wall, the snow leopard plants its front paws on the vertical stone, then brings its hind paws onto the same surface. Its whole body aligns parallel to the wall with its belly facing the stone and all four paws adhering flat; it walks straight upward despite gravity, then steps over the rim onto the flat snowy roof. Keep the full animal, wall and ground below visible in the rear-side follow shot."
+      },
+      {
+        "segment_index": 3,
+        "start_time": "00:00:22.000",
+        "end_time": "00:00:30.000",
+        "description_change": "For the final approximately 8 seconds, the snow leopard trots across the snow-covered flat roof toward its far edge, pausing briefly to look out over the snowy city below before continuing along the rooftop. The camera continues to follow the subject, keeping the subject fully and clearly visible in the frame."
+      }
+    ]
+  }
+]

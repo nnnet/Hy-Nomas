@@ -1,0 +1,12 @@
+{
+  "status": "not-published",
+  "segments": [
+    {
+      "number": 2,
+      "start_seconds": 6,
+      "end_seconds": 18
+    }
+  ],
+  "trajectory": null,
+  "note": "Public upstream identifies these intervals only as Camera control; no frames, key events, transforms, or trajectory JSON are present in the pinned bundle."
+}

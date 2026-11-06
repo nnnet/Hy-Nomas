@@ -1,0 +1,13 @@
+{
+  "exact_replay": false,
+  "published_segments": 5,
+  "hidden_prompt_segments": [
+    4,
+    5
+  ],
+  "camera_control_segments": [],
+  "missing": [
+    "prompt_segments:4,5"
+  ],
+  "policy": "Exact replay is disabled because public upstream omitted source data. No replacement values are fabricated."
+}

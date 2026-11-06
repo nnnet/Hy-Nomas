@@ -1,0 +1,23 @@
+[
+  {
+    "test_id": "sunset_scene",
+    "title": "Sunset over the ocean",
+    "segments": [
+      {
+        "start_time": "00:00.000",
+        "end_time": "00:02.000",
+        "visual_description_long": "A beautiful sunset over the ocean. The sun is a bright orange disk near the horizon, casting golden reflections across gentle rolling waves. The sky transitions from deep blue at the top to warm orange and pink near the horizon. A few wispy clouds drift slowly."
+      },
+      {
+        "start_time": "00:02.000",
+        "end_time": "00:04.000",
+        "visual_description_long": "The sun slowly sinks below the horizon, painting the sky in vibrant orange, pink, and purple hues. The waves continue to roll gently, reflecting the warm colors of the sunset. The scene is peaceful and cinematic."
+      },
+      {
+        "start_time": "00:04.000",
+        "end_time": "00:06.000",
+        "visual_description_long": "The sun has fully set, leaving a soft twilight glow on the horizon. The sky fades to deep indigo with lingering purple clouds. The ocean is calm under the fading light. Fade to black."
+      }
+    ]
+  }
+]

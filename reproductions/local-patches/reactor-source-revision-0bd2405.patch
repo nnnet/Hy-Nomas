@@ -1,0 +1,12 @@
+diff --git a/reactor/hy_nomas_assets.py b/reactor/hy_nomas_assets.py
+index 1298cca..e7c2344 100644
+--- a/reactor/hy_nomas_assets.py
++++ b/reactor/hy_nomas_assets.py
+@@ -11,7 +11,7 @@ import yaml
+
+ from hy_nomas_model import ModelSettings
+
+-SOURCE_REVISION = "01b7dba36b05cf532dd8985e379aecc8b80d395f"
++SOURCE_REVISION = "0bd240561567c0245d8ab8695c962337a8ea77fa"
+ MODEL_REVISION = "bac719a80c8d02f91c485fca804bb8221e149b70"
+ TEXT_REVISION = "cc594898137f460bfe9f0759e9844b3ce807cfb5"

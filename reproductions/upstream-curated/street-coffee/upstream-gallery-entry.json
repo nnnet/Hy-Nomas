@@ -1,0 +1,42 @@
+{
+  "id": "curated-20261022-street-coffee",
+  "title": "Street Coffee",
+  "video": "gallery/curated-20261022-street-coffee.mp4",
+  "duration": "41.6s",
+  "perspective": "second-person",
+  "subject": "An adult woman coffee vendor wearing an apron, facing the camera behind a street cart.",
+  "attributes": "An outdoor coffee stall with a filter dripper, glass server, and gooseneck kettle under roadside trees.",
+  "direction": "Prepare the dripper and pour hot water slowly over the coffee grounds.",
+  "prompt_timeline": [
+    {
+      "number": 1,
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "prompt": "路边的露天咖啡摊上，一位系着围裙的成年女性摊贩站在折叠式手推车后，面向镜头。手推车上整齐摆放着手冲咖啡器具，包括装有咖啡粉的滤杯、下方的玻璃咖啡壶和一把细口水壶。女性摊贩低头检查滤杯，轻轻调整其位置，准备冲泡咖啡。场景采用第二人称视角，镜头保持稳定的中景，背景中树木轻轻摇曳，偶尔有行人经过。"
+    },
+    {
+      "number": 2,
+      "start_seconds": 8,
+      "end_seconds": 20,
+      "prompt": "镜头缓慢推近，聚焦女性摊贩的双手和手冲咖啡器具。她拿起细口水壶，将热水缓缓倒入装有咖啡粉的滤杯中。热水浸湿咖啡粉，深棕色的咖啡液逐渐从滤杯底部滴入下方的玻璃咖啡壶中。镜头保持稳定，清晰展示注水和咖啡滴落的过程。"
+    },
+    {
+      "number": 3,
+      "start_seconds": 20,
+      "end_seconds": 32,
+      "prompt": "女性摊贩停止注水，将细口水壶放回手推车上。待剩余的咖啡液滴入玻璃咖啡壶后，她轻轻移开滤杯。镜头逐渐拉远，恢复到展示女性摊贩和整个咖啡摊的中景，保持第二人称视角。"
+    },
+    {
+      "number": 4,
+      "start_seconds": 32,
+      "end_seconds": 38.167,
+      "prompt": "Original user prompt unavailable"
+    },
+    {
+      "number": 5,
+      "start_seconds": 38.167,
+      "end_seconds": 41.625,
+      "prompt": "Original user prompt unavailable"
+    }
+  ]
+}
